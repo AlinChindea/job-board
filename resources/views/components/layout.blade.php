@@ -28,9 +28,7 @@
     <main class="mt-10 max-w-[986px] mx-auto">
       {{ $slot }}
     </main>
+    <x-footer />
   </div>
-  <footer>
-    <p>&copy; 2024 Job Board</p>
-  </footer>
 </body>
 </html>
