@@ -9,6 +9,12 @@ export default {
             colors: {
                 'black': '#060606',
                 'j-white': '#e8dedb'
+            },
+            fontFamily: {
+                'hanken-grotesk': ['Hanken Grotesk, sans-serif'],
+            },
+            fontSize: {
+                '2xs': '.625rem'
             }
         },
     },
