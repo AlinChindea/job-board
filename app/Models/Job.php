@@ -18,7 +18,7 @@ class Job extends Model
 
     public function tag(string $name): void
     {
-        $tag = Tag::firstOrCreate(['name' => $name]);
+        $tag = Tag::firstOrCreate(['name' => strtolower($name)]);
 
         // interact with the pivot table
         $this->tags()->attach($tag);
